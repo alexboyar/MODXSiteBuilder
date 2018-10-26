@@ -1,0 +1,4 @@
+Version: 1.0.0-rc
+Date: 26 October June 2018
+============== 
+- Beta test
