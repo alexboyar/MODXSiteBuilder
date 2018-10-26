@@ -49,7 +49,11 @@ $addons = array(
             'AjaxForm' => '1.1.9-pl',
             'controlErrorLog' => '1.2.1-pl',
             'elementNotes' => '1.0.1-pl',
-            'miniShop2' => '2.4.15-pl'
+            'miniShop2' => '2.4.15-pl',
+            'ForceTemplate' => '1.0.3-pl',
+            'Counters' => '1.0.0-pl',
+            'modSizeControl ' => '1.0.4-beta',
+            'caseChanger' => '1.1.1-pl',
         )),
 );
 
