@@ -21,13 +21,12 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
     case xPDOTransport::ACTION_UPGRADE:
 
         /*
-        * Component pdoTools settings
         * 1. Разрешить пользователям использовать одинаковые E-Mail адреса: Нет
         * 2. Создавать ЧПУ-псевдоним в реальном времени: Да
         * 3. Использовать ЧПУ-псевдоним: Да
         * 4. Строгий режим дружественных URL: Да
         * 5. Скрыть документ из меню по умолчанию: Да
-        * 6. Публиковать по умолчанию: Нет
+        * 6. Публиковать по умолчанию: Да
         * 7. Использовать вложенные URL: Да
         * 8. Шаблон для фильтрации символов в псевдонимах: Используется регулярное выражение от Ильи Уткина
         * 9. Убираем суффик псевдонима контейнеров
@@ -39,9 +38,12 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         * 15. Страница ошибки 403 «Доступ запрещен»: указываем автоматически созданную страницу 404
         * 16. Локаль: ru_RU.utf8
         * 17. Отправлять заголовок X-Powered-By: нет
+		* 18. URL фавиконки панели управления
+		* 19. Cache prefix
+		* 20. Cache prefix
         */
 
-        // Разрешить пользователям использовать одинаковые E-Mail адреса: Нет
+        // 1. Разрешить пользователям использовать одинаковые E-Mail адреса: Нет
         if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'allow_multiple_emails'))) {
             $tmp = $modx->newObject('modSystemSetting');
         }
@@ -54,7 +56,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         ), '', true, true);
         $tmp->save();
         
-        // Создавать ЧПУ-псевдоним в реальном времени: Да
+        // 2. Создавать ЧПУ-псевдоним в реальном времени: Да
         if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'friendly_alias_realtime'))) {
             $tmp = $modx->newObject('modSystemSetting');
         }
@@ -67,7 +69,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         ), '', true, true);
         $tmp->save();
         
-        // Использовать ЧПУ-псевдоним: Да
+        // 3. Использовать ЧПУ-псевдоним: Да
         if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'friendly_urls'))) {
             $tmp = $modx->newObject('modSystemSetting');
         }
@@ -80,7 +82,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         ), '', true, true);
         $tmp->save();
 
-        // Строгий режим дружественных URL: Да
+        // 4. Строгий режим дружественных URL: Да
         if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'friendly_urls_strict'))) {
             $tmp = $modx->newObject('modSystemSetting');
         }
@@ -93,7 +95,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         ), '', true, true);
         $tmp->save();
 
-        // Скрыть документ из меню по умолчанию: Да
+        // 5. Скрыть документ из меню по умолчанию: Да
         if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'hidemenu_default'))) {
             $tmp = $modx->newObject('modSystemSetting');
         }
@@ -106,7 +108,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         ), '', true, true);
         $tmp->save();
 
-        // Публиковать по умолчанию: Нет
+        // 6. Публиковать по умолчанию: Да
         if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'publish_default'))) {
             $tmp = $modx->newObject('modSystemSetting');
         }
@@ -119,7 +121,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         ), '', true, true);
         $tmp->save();
 
-        // Использовать вложенные URL: Да
+        // 7. Использовать вложенные URL: Да
         if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'use_alias_path'))) {
             $tmp = $modx->newObject('modSystemSetting');
         }
@@ -132,7 +134,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         ), '', true, true);
         $tmp->save();
 
-        // Шаблон для фильтрации символов в псевдонимах: Используется регулярное выражение от Ильи Уткина
+        // 8. Шаблон для фильтрации символов в псевдонимах: Используется регулярное выражение от Ильи Уткина
         if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'friendly_alias_restrict_chars_pattern'))) {
             $tmp = $modx->newObject('modSystemSetting');
         }
@@ -145,7 +147,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         ), '', true, true);
         $tmp->save();
 
-        // Убираем суффик псевдонима контейнеров
+        // 9. Убираем суффик псевдонима контейнеров
         if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'container_suffix'))) {
             $tmp = $modx->newObject('modSystemSetting');
         }
@@ -158,7 +160,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         ), '', true, true);
         $tmp->save();
 
-        // Транслитерация псевдонимов: russian
+        // 10. Транслитерация псевдонимов: russian
         if (in_array('translit', $options['install_addons'])) {
             if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'friendly_alias_translit'))) {
                 $tmp = $modx->newObject('modSystemSetting');
@@ -173,7 +175,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
             $tmp->save();
         }
         
-        // Поле для названия узла в дереве ресурсов: menutitle
+        // 11. Поле для названия узла в дереве ресурсов: menutitle
         if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'resource_tree_node_name'))) {
             $tmp = $modx->newObject('modSystemSetting');
         }
@@ -186,7 +188,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         ), '', true, true);
         $tmp->save();
         
-        // Поле для подсказки для узла в дереве ресурсов: textfield
+        // 12. Поле для подсказки для узла в дереве ресурсов: textfield
         if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'resource_tree_node_tooltip'))) {
             $tmp = $modx->newObject('modSystemSetting');
         }
@@ -199,7 +201,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         ), '', true, true);
         $tmp->save();
 
-        // Страница ошибки 404 «Документ не найден»: указываем автоматически созданную страницу 404
+        // 13. Страница ошибки 404 «Документ не найден»: указываем автоматически созданную страницу 404
         $alias = '404';
         $tid = $modx->getOption('site_start');
         if ($resource = $modx->getObject('modResource', array('alias' => $alias))) {
@@ -217,7 +219,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         ), '', true, true);
         $tmp->save();
         
-        // Страница «Сайт недоступен»: указываем автоматически созданную страницу 404
+        // 14. Страница «Сайт недоступен»: указываем автоматически созданную страницу 404
         if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'site_unavailable_page'))) {
             $tmp = $modx->newObject('modSystemSetting');
         }
@@ -230,7 +232,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         ), '', true, true);
         $tmp->save();
         
-        // Страница ошибки 403 «Доступ запрещен»: указываем автоматически созданную страницу 404
+        // 15. Страница ошибки 403 «Доступ запрещен»: указываем автоматически созданную страницу 404
         if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'unauthorized_page'))) {
             $tmp = $modx->newObject('modSystemSetting');
         }
@@ -243,7 +245,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         ), '', true, true);
         $tmp->save();
 
-        // Локаль: ru_RU.utf8
+        // 16. Локаль: ru_RU.utf8
         if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'locale'))) {
             $tmp = $modx->newObject('modSystemSetting');
         }
@@ -256,7 +258,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         ), '', true, true);
         $tmp->save();
 
-        // Отправлять заголовок X-Powered-By: нет
+        // 17. Отправлять заголовок X-Powered-By: нет
         if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'send_poweredby_header'))) {
             $tmp = $modx->newObject('modSystemSetting');
         }
@@ -269,8 +271,8 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         ), '', true, true);
         $tmp->save();
 
-        // НУЖНО ТЕСТИРОВАТЬ!!! URL фавиконки панели управления: 
-        if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'manager_favicon_url'))) {
+        // 18. НУЖНО ТЕСТИРОВАТЬ!!! URL фавиконки панели управления:
+        /*if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'manager_favicon_url'))) {
             $tmp = $modx->newObject('modSystemSetting');
         }
         $tmp->fromArray(array(
@@ -280,9 +282,9 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
             'value'     => $modx->getOption('assets_url') . 'components/' . strtolower($options['site_category']) . '/web/img/favicon.ico',
             'key'       => 'manager_favicon_url',
         ), '', true, true);
-        $tmp->save();
+        $tmp->save();*/
 
-        // НУЖНО ТЕСТИРОВАТЬ!!!
+        // 19. Cache prefix
         if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'cache_prefix'))) {
             $tmp = $modx->newObject('modSystemSetting');
         }
@@ -298,7 +300,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         /*
         * Component pdoTools settings
         * 1. Использовать Fenom на страницах: Да
-        * 2. Разрешить PHP в Fenom: Да
+        * 2. Разрешить PHP в Fenom: Нет
         */
         
         // Использовать Fenom на страницах: Да
@@ -316,7 +318,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
             $tmp->save();
         }
 
-        // Разрешить PHP в Fenom: Да
+        // Разрешить PHP в Fenom: Нет
         if (in_array('pdoTools', $options['install_addons'])) {
             if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'pdotools_fenom_php'))) {
                 $tmp = $modx->newObject('modSystemSetting');
@@ -325,7 +327,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
                 'namespace' => 'pdotools',
                 'area'      => 'pdotools_main',
                 'xtype'     => 'combo-boolean',
-                'value'     => '1',
+                'value'     => '0',
                 'key'       => 'pdotools_fenom_php',
             ), '', true, true);
             $tmp->save();
@@ -334,7 +336,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         /*
         * Plugin Ace settings
         * 1. Размер шрифта в редакторе: 16px
-        * 2. Размер табуляции в редакторе: 2
+        * 2. Размер табуляции в редакторе: 4
         * 3. Тема редактора: clouds_midnight
         */
 
@@ -353,7 +355,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
             $tmp->save();
         }
         
-        // Размер табуляции в редакторе: 2
+        // Размер табуляции в редакторе: 4
         if (in_array('Ace', $options['install_addons'])) {
             if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'ace.tab_size'))) {
                 $tmp = $modx->newObject('modSystemSetting');
@@ -362,7 +364,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
                 'namespace' => 'ace',
                 'area'      => 'general',
                 'xtype'     => 'textfield',
-                'value'     => '2',
+                'value'     => '4',
                 'key'       => 'ace.tab_size',
             ), '', true, true);
             $tmp->save();
@@ -386,7 +388,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         /*
         * Plugin TinyMCE Rich Text Editor settings
         * 1. Вставить как текст: Да
-        * 2. Путь к кастомному файлу external-config.json: ../assets/components/modxstarterbuild/tinymcerte/js/external-config.json
+        * 2. Путь к кастомному файлу external-config.json: ../assets/components/goodextra/tinymcerte/js/external-config.json
         * 3. Активируем все нужные плагины
         * 4. Устанавливаем тему lightgray для TinyMCERTE
         * 5. Настраиваем Панель инструментов 1
@@ -408,7 +410,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
             $tmp->save();
         }
 
-        // Путь к кастомному файлу external-config.json: ../assets/components/modxstarterbuild/tinymcerte/js/external-config.json
+        // Путь к кастомному файлу external-config.json: ../assets/components/goodextra/tinymcerte/js/external-config.json
         if (in_array('TinyMCE Rich Text Editor', $options['install_addons'])) {
             if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'tinymcerte.external_config'))) {
                 $tmp = $modx->newObject('modSystemSetting');
@@ -417,7 +419,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
                 'namespace' => 'tinymcerte',
                 'area'      => 'default',
                 'xtype'     => 'textfield',
-                'value'     => '../assets/components/modxstarterbuild/tinymcerte/js/external-config.json',
+                'value'     => '../assets/components/goodextra/tinymcerte/js/external-config.json',
                 'key'       => 'tinymcerte.external_config',
             ), '', true, true);
             $tmp->save();

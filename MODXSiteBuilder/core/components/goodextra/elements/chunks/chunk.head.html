@@ -1,0 +1,20 @@
+<meta charset="utf-8">
+<base href="{$_modx->config.site_url}">
+<title>{$_modx->resource.pagetitle}</title>
+<meta name="description" content="{$_modx->resource.introtext}">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+{var $assets = $_modx->config.assets_url}
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+{*'!MinifyX' | snippet : [
+'minifyCss' => 1,
+'minifyJs' => 1,
+'cssSources' => $assets ~ 'components/' ~ $site_folder ~ '/bootstrap/css/bootstrap.min.css,' ~
+$assets ~ 'components/' ~ $site_folder ~ '/fancybox/source/jquery.fancybox.css',
+'jsSources'  => $assets ~ 'components/' ~ $site_folder ~ '/bootstrap/js/bootstrap.min.js,' ~
+$assets ~ 'components/' ~ $site_folder ~ '/fancybox/source/jquery.fancybox.pack.js,' ~
+$assets ~ 'components/' ~ $site_folder ~ '/web/js/script.js,'
+]*}
+{$_modx->getPlaceholder('MinifyX.css')}

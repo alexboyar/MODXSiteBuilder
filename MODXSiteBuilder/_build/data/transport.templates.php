@@ -5,7 +5,10 @@
 $templates = array();
 
 $tmp = array(
-
+	$this->config['PACKAGE_NAME'] => array(
+		'file' => 'maintemplate',
+		'description' => 'Базовый шаблон для наследования'
+	)
 );
 $setted = false;
 foreach ($tmp as $k => $v) {

@@ -3,7 +3,7 @@
 class siteBuilder {
     
     public $config = array(
-            'PACKAGE_NAME' => 'site',
+            'PACKAGE_NAME' => 'goodextra',
             'PACKAGE_VERSION' => '1.0.0',
             'PACKAGE_RELEASE' => 'beta',
             'BUILD_RESOLVERS' => array()

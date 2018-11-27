@@ -2,8 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14fd32d5-2daf-4840-99cb-55de3a3e9d43" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MODXSiteBuilder/_build/build.transport.php" afterPath="$PROJECT_DIR$/MODXSiteBuilder/_build/build.transport.php" />
+      <change afterPath="$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.tvs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MODXSiteBuilder/assets/components/goodextra/mgr/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/docs/friendly_alias_restrict_chars_pattern.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/chunks/chunk.contact_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/chunks/chunk.footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/chunks/chunk.head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/chunks/chunk.scripts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/plugins/plugin.FenomModifiers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/plugins/plugin.addmanagercss.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/plugins/plugin.siteredirect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/templates/template.maintemplate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/_build/build.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/_build/build.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/_build/build.transport.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/_build/build.transport.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.chunks.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.chunks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.plugins.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.plugins.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.snippets.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.snippets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.templates.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.templates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.resources.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.resources.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/assets/components/site/tinymcerte/js/external-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/assets/components/goodextra/tinymcerte/js/external-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/core/components/site/docs/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/docs/changelog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/core/components/site/docs/friendly_alias_restrict_chars_pattern.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/core/components/site/docs/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/docs/license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/core/components/site/docs/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/docs/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/core/components/site/elements/chunks/chunk.performance.html" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/chunks/chunk.performance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/core/components/site/elements/plugins/plugin.dirRename.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/plugins/plugin.dirRename.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/core/components/site/elements/plugins/plugin.fileRename.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/plugins/plugin.fileRename.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/core/components/site/elements/snippets/snippet.copyright.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/snippets/snippet.copyright.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/core/components/site/elements/snippets/snippet.correctMonth.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/snippets/snippet.correctMonth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/core/components/site/elements/snippets/snippet.dateRU.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/snippets/snippet.dateRU.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,9 +46,8 @@
       <file leaf-file-name="build.transport.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/build.transport.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="46" column="35" lean-forward="false" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="455">
+              <caret line="57" column="37" lean-forward="true" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -34,9 +62,18 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/MODXSiteBuilder/core/components/site/docs/changelog.txt" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.settings.php" />
+        <option value="$PROJECT_DIR$/MODXSiteBuilder/core/components/site/docs/friendly_alias_restrict_chars_pattern.txt" />
+        <option value="$PROJECT_DIR$/MODXSiteBuilder/core/components/site/elements/templates/template.maintemplate.html" />
+        <option value="$PROJECT_DIR$/MODXSiteBuilder/core/components/site/elements/plugins/plugin.addmanagercss.php" />
+        <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.chunks.php" />
+        <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.snippets.php" />
+        <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.plugins.php" />
+        <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.templates.php" />
         <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/build.transport.php" />
+        <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.resources.php" />
+        <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/build.class.php" />
+        <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.settings.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -46,8 +83,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1358" />
     <option name="y" value="-8" />
     <option name="width" value="1296" />
@@ -173,74 +212,49 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MODXSiteBuilder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MODXSiteBuilder" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MODXSiteBuilder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MODXSiteBuilder" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MODXSiteBuilder" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MODXSiteBuilder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MODXSiteBuilder" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MODXSiteBuilder" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_build" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="MODXSiteBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MODXSiteBuilder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MODXSiteBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MODXSiteBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="MODXSiteBuilder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MODXSiteBuilder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MODXSiteBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="MODXSiteBuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="_build" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../goodextra.local" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Extras\MODXSiteBuilder\MODXSiteBuilder\_build\resolvers" />
+      <recent name="D:\Projects\Extras\MODXSiteBuilder\MODXSiteBuilder\assets\components\goodextra" />
+      <recent name="D:\Projects\Extras\MODXSiteBuilder\MODXSiteBuilder\core\components\site\elements" />
+      <recent name="D:\Projects\Extras\MODXSiteBuilder\MODXSiteBuilder\core\components\site\elements\plugins" />
+      <recent name="D:\Projects\Extras\MODXSiteBuilder\MODXSiteBuilder\core\components\site\elements\chunks" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -255,44 +269,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
-      <PhpTestRunnerSettings />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
-      <PhpTestRunnerSettings />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -300,35 +276,14 @@
       <tasks />
       <arguments />
       <envs />
-      <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
     <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -339,40 +294,47 @@
       <updated>1540538068037</updated>
       <workItem from="1540538069832" duration="741000" />
       <workItem from="1540538892638" duration="1628000" />
-      <workItem from="1540540549292" duration="2569000" />
+      <workItem from="1540540549292" duration="3207000" />
+      <workItem from="1540801041455" duration="1347000" />
+      <workItem from="1540874773299" duration="1904000" />
+      <workItem from="1540959284827" duration="628000" />
+      <workItem from="1543236430328" duration="796000" />
+      <workItem from="1543293082488" duration="6067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4938000" />
+    <option name="totallyTimeSpent" value="16318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2588997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28667414" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29339305" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29288027" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Get Gist" order="11" weight="0.32922733" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32922733" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922733" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.34154534" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="File Transfer" order="8" weight="0.29339305" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -403,37 +365,30 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.settings.php">
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/build.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/build.transport.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="408">
+          <caret line="24" column="63" lean-forward="true" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.resources.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.settings.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/core/components/site/docs/changelog.txt">
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/docs/changelog.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -447,54 +402,183 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/build.class.php">
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/plugins/plugin.dirRename.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/chunks/chunk.contact_form.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/docs/friendly_alias_restrict_chars_pattern.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state>
+          <caret column="63" selection-start-column="63" selection-end-column="63" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/templates/template.maintemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/plugins/plugin.addmanagercss.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/assets/components/goodextra/mgr/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.chunks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.snippets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.plugins.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.templates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.addons.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2342">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-1632" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.fix_directresize.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.fix_fastuploadtv.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.fix_translit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-803" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.template.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.tvs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="143" column="45" lean-forward="true" selection-start-line="143" selection-start-column="45" selection-end-line="143" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.resources.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="99" column="115" lean-forward="true" selection-start-line="99" selection-start-column="115" selection-end-line="99" selection-end-column="115" />
+        <state relative-caret-position="302">
+          <caret line="120" column="37" lean-forward="true" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
           <folding>
-            <marker date="1539724076000" expanded="false" signature="2915:2986" ph="..." />
-            <marker date="1539724076000" expanded="true" signature="2987:4058" ph="..." />
-            <marker date="1539724076000" expanded="false" signature="3021:3101" ph="..." />
-            <marker date="1539724076000" expanded="false" signature="3145:3207" ph="..." />
-            <marker date="1539724076000" expanded="true" signature="3208:4035" ph="..." />
-            <marker date="1539724076000" expanded="false" signature="3297:3313" ph="..." />
-            <marker date="1539724076000" expanded="false" signature="3447:3463" ph="..." />
-            <marker date="1539724076000" expanded="false" signature="3576:3593" ph="..." />
-            <marker date="1539724076000" expanded="false" signature="3647:3668" ph="..." />
-            <marker date="1539724076000" expanded="true" signature="3669:4008" ph="..." />
+            <element signature="e#1098#1986#1#PHP" />
+            <element signature="e#2834#4074#1#PHP" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/build.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="219" column="11" lean-forward="true" selection-start-line="219" selection-start-column="11" selection-end-line="219" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-370">
-          <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="166">
+          <caret line="390" column="27" selection-start-line="390" selection-start-column="27" selection-end-line="390" selection-end-column="27" />
+          <folding>
+            <element signature="e#1802#1961#0#PHP" />
+            <element signature="e#1986#2210#0#PHP" />
+            <element signature="e#2326#2487#0#PHP" />
+            <element signature="e#2512#2729#0#PHP" />
+            <element signature="e#2829#2980#0#PHP" />
+            <element signature="e#3005#3212#0#PHP" />
+            <element signature="e#3309#3467#0#PHP" />
+            <element signature="e#3492#3706#0#PHP" />
+            <element signature="e#3808#3962#0#PHP" />
+            <element signature="e#3987#4196#0#PHP" />
+            <element signature="e#4287#4440#0#PHP" />
+            <element signature="e#4465#4673#0#PHP" />
+            <element signature="e#4765#4917#0#PHP" />
+            <element signature="e#4942#5150#0#PHP" />
+            <element signature="e#5306#5481#0#PHP" />
+            <element signature="e#5506#5887#0#PHP" />
+            <element signature="e#5986#6140#0#PHP" />
+            <element signature="e#6165#6370#0#PHP" />
+            <element signature="e#6467#7030#0#PHP" />
+            <element signature="e#7111#7272#0#PHP" />
+            <element signature="e#7297#7520#0#PHP" />
+            <element signature="e#7646#7810#0#PHP" />
+            <element signature="e#7835#8057#0#PHP" />
+            <element signature="e#8278#8405#0#PHP" />
+            <element signature="e#8414#8562#0#PHP" />
+            <element signature="e#8587#8787#0#PHP" />
+            <element signature="e#8931#9090#0#PHP" />
+            <element signature="e#9115#9326#0#PHP" />
+            <element signature="e#9481#9636#0#PHP" />
+            <element signature="e#9661#9868#0#PHP" />
+            <element signature="e#9948#10092#0#PHP" />
+            <element signature="e#10117#10325#0#PHP" />
+            <element signature="e#10425#10584#0#PHP" />
+            <element signature="e#10609#10825#0#PHP" />
+            <element signature="e#10939#11484#0#PHP" />
+            <element signature="e#11526#11676#0#PHP" />
+            <element signature="e#11701#11904#0#PHP" />
+            <element signature="e#12164#12733#0#PHP" />
+            <element signature="e#12780#13343#0#PHP" />
+            <element signature="e#13584#14120#0#PHP" />
+            <element signature="e#14181#14712#0#PHP" />
+            <element signature="e#14765#15304#0#PHP" />
+            <element signature="e#15784#16371#0#PHP" />
+            <element signature="e#16511#17169#0#PHP" />
+            <element signature="e#17220#18112#0#PHP" />
+            <element signature="e#18177#18750#0#PHP" />
+            <element signature="e#18805#19571#0#PHP" />
+            <element signature="e#19626#20304#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/build.transport.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="46" column="35" lean-forward="false" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="455">
+          <caret line="57" column="37" lean-forward="true" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
         </state>
       </provider>
     </entry>

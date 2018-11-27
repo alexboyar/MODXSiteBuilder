@@ -19,17 +19,17 @@ $tmp = array(
     'copyright' => array(
         'file' => 'copyright',
         'description' => 'Автоматический копирайт в футере. Вызов: [[++site_name]] | [[copyright? &start=`2018`]].',
-        'category' => '01 - sitename.ru'
+        'category' => 'goodextra'
     ),
     'correctMonth' => array(
         'file' => 'correctMonth',
         'description' => 'Форматирование правильного склонения месяца. Вызывается: [[*publishedon:strtotime:correctMonth=`%b %d %Y`]] / [[*editedon:strtotime:correctMonth=`%b %d %Y`]].',
-        'category' => '01 - sitename.ru'
+        'category' => 'goodextra'
     ),
     'dateRU' => array(
         'file' => 'dateRU',
         'description' => 'Перевод месяцев и дней с английского на русский для постов.',
-        'category' => '01 - sitename.ru'
+        'category' => 'goodextra'
     ),
 );
 

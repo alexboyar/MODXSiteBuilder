@@ -1,0 +1,12 @@
+<footer>
+	<hr>
+	<div class="row">
+		<div class="col-xs-12">
+			<p>&copy;
+				{var $year = '' | date : 'Y'}
+				{if $year == 2017}2017{else}2017—{$year}{/if}
+				{$_modx->config.site_name}
+			</p>
+		</div>
+	</div>
+</footer>

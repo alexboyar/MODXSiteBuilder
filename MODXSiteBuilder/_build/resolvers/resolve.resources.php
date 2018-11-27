@@ -56,7 +56,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
 
             'content' => preg_replace(array('/^\n/', '/[ ]{2,}|[\t]/'), '', "
                 User-agent: *
-                Allow: /
+				Disallow: /
                 
                 Host: {\$_modx->config.http_host}
                 
@@ -105,42 +105,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         ));
         $resource->save();
         $res404 = $resource->get('id');
-        
-        /* HTML карта сайта */
-        $alias = 'site-map';
-        $parent = 0;
-        if (!$resource = $modx->getObject('modResource', array('alias' => $alias))) {
-            $resource = $modx->newObject('modResource');
-        }
-        $resource->fromArray(array(
-            'class_key'    => 'modDocument',
-            'menuindex'    => 1000,
-            'pagetitle'    => 'Карта сайта',
-            'isfolder'     => 1,
-            'alias'        => $alias,
-            'uri'          => $alias,
-            'uri_override' => 0,
-            'published'    => 1,
-            'publishedon'  => time(),
-            'hidemenu'     => 1,
-            'richtext'     => 0,
-            'parent'       => $parent,
-            'template'     => $templateId,
-            'content'      => preg_replace(array('/^\n/', '/[ ]{2,}|[\t]/'), '', "
-                {'pdoMenu' | snippet : [
-                    'startId' => 0,
-                    'ignoreHidden' => 1,
-                    'resources' => '-".$res404.",-' ~ \$_modx->resource.id,
-                    'level' => 2,
-                    'outerClass' => '',
-                    'firstClass' => '',
-                    'lastClass' => '',
-                    'hereClass' => '',
-                    'where' => '{\"searchable\":1}'
-                ]}
-            ")
-        ));
-        $resource->save();
+
 
         /* sitemap.xml */
         $alias = 'sitemap';

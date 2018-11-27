@@ -16,6 +16,18 @@
 $chunks = array();
 
 $tmp = array(
+	'head' => array(
+		'file' => 'head',
+		'description' => 'Содержимое тега <head>'
+	),
+	'footer' => array(
+		'file' => 'footer',
+		'description' => 'Футер сайта'
+	),
+	'scripts' => array(
+		'file' => 'scripts',
+		'description' => 'Подключаемые скрипты в футере сайта'
+	),
     'performance' => array(
         'file' => 'performance',
         'description' => 'Код для тестирования и вывода результатов производительности сайта.',

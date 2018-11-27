@@ -19,7 +19,7 @@ $tmp = array(
     'dirRename' => array(
         'file' => 'dirRename',
         'description' => 'Плагин транслитерации создаваемых папок с кириллицы на латиницу',
-        'category' => '01 - sitename.ru',
+        'category' => 'goodextra',
         'events' => array(
             'OnFileManagerDirCreate' => array(),
             'OnFileManagerDirRename' => array()
@@ -28,11 +28,35 @@ $tmp = array(
     'fileRename' => array(
         'file' => 'fileRename',
         'description' => 'Плагин транслитерации загружаемых файлов с кириллицы на латиницу',
-        'category' => '01 - sitename.ru',
+	    'category' => 'goodextra',
         'events' => array(
             'OnFileManagerUpload' => array()
         )
     ),
+	'addManagerCss' => array(
+		'file' => 'addmanagercss',
+		'description' => '',
+		'category' => 'goodextra',
+		'events' => array(
+			'OnManagerPageInit' => array()
+		)
+	),
+	'siteRedirect' => array(
+		'file' => 'siteredirect',
+		'description' => 'Плагин автоматического редиректа на новый адрес ресурса при изменении URL',
+		'category' => 'goodextra',
+		'events' => array(
+			'OnHandleRequest' => array()
+		)
+	),
+	'FenomModifiers' => array(
+		'file' => 'FenomModifiers',
+		'description' => 'Плагин с модификаторами Fenom',
+		'category' => 'goodextra',
+		'events' => array(
+			'pdoToolsOnFenomInit' => array()
+		)
+	)
 );
 
 foreach ($tmp as $k => $v) {

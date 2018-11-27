@@ -15,6 +15,7 @@ $resolvers = array(
     'rename_htaccess',
     'remove_changelog',
     'cache_options',
+	'tvs',
     'resources',
     'settings',
     'fix_translit',
@@ -37,7 +38,10 @@ $addons = array(
             'ReCaptchaV2' => '2.3.0-rc1',
             'SEO Pro' => '1.3.0-pl',
             'Login' => '1.9.7-pl',
-            'Cron Manager' => '1.1.0-pl'
+            'Cron Manager' => '1.1.0-pl',
+	        'Console' => '2.1.0-beta',
+	        'ClientConfig' => '1.4.1-pl',
+	        'VersionX' => '2.1.3-pl'
         )),
     // Из репозитория https://modstore.pro/packages/
     array('name' => 'modstore.pro', 'packages' => array(
@@ -54,11 +58,16 @@ $addons = array(
             'Counters' => '1.0.0-pl',
             'modSizeControl ' => '1.0.4-beta',
             'caseChanger' => '1.1.1-pl',
+	        'MinifyX' => '1.4.4-pl',
+		    'tagElementPlugin' => '1.1.3-pl',
+		    'frontendManager' => '1.0.8-beta',
+		    'FastUploadTV' => '1.0.0-pl',
+		    'debugParser' => '1.1.0-pl',
         )),
 );
 
 /* Указываем имя стартера и версию */
-$builder = new siteBuilder('MODXSiteBuilder', '1.0.1', 'rc', $resolvers, $addons);
+$builder = new siteBuilder('goodextra', '1.0.1', 'beta', $resolvers, $addons);
 
 /* Начинаем сборку */
 $builder->build();
