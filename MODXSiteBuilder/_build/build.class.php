@@ -4,7 +4,7 @@ class siteBuilder {
     
     public $config = array(
             'PACKAGE_NAME' => 'goodextra',
-            'PACKAGE_VERSION' => '1.0.0',
+            'PACKAGE_VERSION' => '1.0.5',
             'PACKAGE_RELEASE' => 'beta',
             'BUILD_RESOLVERS' => array()
         );

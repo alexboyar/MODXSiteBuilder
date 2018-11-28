@@ -18,20 +18,23 @@ $chunks = array();
 $tmp = array(
 	'head' => array(
 		'file' => 'head',
-		'description' => 'Содержимое тега <head>'
+		'description' => 'Содержимое тега <head>',
+		'category' => 'goodextra'
 	),
 	'footer' => array(
 		'file' => 'footer',
-		'description' => 'Футер сайта'
+		'description' => 'Футер сайта',
+		'category' => 'goodextra'
 	),
 	'scripts' => array(
 		'file' => 'scripts',
-		'description' => 'Подключаемые скрипты в футере сайта'
+		'description' => 'Подключаемые скрипты в футере сайта',
+		'category' => 'goodextra'
 	),
     'performance' => array(
         'file' => 'performance',
         'description' => 'Код для тестирования и вывода результатов производительности сайта.',
-        'category' => '01 - sitename.ru'
+	    'category' => 'goodextra'
     )
 );
 

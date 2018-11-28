@@ -7,7 +7,8 @@ $templates = array();
 $tmp = array(
 	$this->config['PACKAGE_NAME'] => array(
 		'file' => 'maintemplate',
-		'description' => 'Базовый шаблон для наследования'
+		'description' => 'Базовый шаблон для наследования',
+		'category' => 'goodextra'
 	)
 );
 $setted = false;
