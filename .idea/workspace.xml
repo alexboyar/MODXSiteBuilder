@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14fd32d5-2daf-4840-99cb-55de3a3e9d43" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/templates/template.basetemplate.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/_build/build.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/_build/build.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/_build/build.transport.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/_build/build.transport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.chunks.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.chunks.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.templates.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.templates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.resources.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.resources.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/templates/template.maintemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/templates/template.maintemplate.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,58 +18,54 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.transport.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/build.transport.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.class.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/build.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="43" column="73" lean-forward="true" selection-start-line="43" selection-start-column="73" selection-end-line="43" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="transport.chunks.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.chunks.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="transport.templates.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.templates.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            <state relative-caret-position="306">
+              <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="transport.plugins.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.plugins.php">
+      <file leaf-file-name="build.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/build.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state relative-caret-position="102">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="transport.snippets.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.snippets.php">
+      <file leaf-file-name="build.transport.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/build.transport.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="33" />
+            <state relative-caret-position="635">
+              <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resolve.resources.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.resources.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -85,14 +84,15 @@
         <option value="$PROJECT_DIR$/MODXSiteBuilder/core/components/site/elements/templates/template.maintemplate.html" />
         <option value="$PROJECT_DIR$/MODXSiteBuilder/core/components/site/elements/plugins/plugin.addmanagercss.php" />
         <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.snippets.php" />
-        <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.resources.php" />
-        <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.settings.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.plugins.php" />
         <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.chunks.php" />
+        <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.settings.php" />
         <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.templates.php" />
-        <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/build.transport.php" />
+        <option value="$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/templates/template.maintemplate.html" />
         <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/build.class.php" />
+        <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/build.transport.php" />
+        <option value="$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.resources.php" />
       </list>
     </option>
   </component>
@@ -266,13 +266,6 @@
               <item name="MODXSiteBuilder" type="462c0819:PsiDirectoryNode" />
               <item name="MODXSiteBuilder" type="462c0819:PsiDirectoryNode" />
               <item name="_build" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MODXSiteBuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MODXSiteBuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="MODXSiteBuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="_build" type="462c0819:PsiDirectoryNode" />
               <item name="resolvers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -313,7 +306,7 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="goodextra" type="462c0819:PsiDirectoryNode" />
               <item name="elements" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -334,11 +327,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Extras\MODXSiteBuilder\MODXSiteBuilder\core\components\goodextra\elements\templates" />
       <recent name="D:\Projects\Extras\MODXSiteBuilder\MODXSiteBuilder\_build\resolvers" />
       <recent name="D:\Projects\Extras\MODXSiteBuilder\MODXSiteBuilder\assets\components\goodextra" />
       <recent name="D:\Projects\Extras\MODXSiteBuilder\MODXSiteBuilder\core\components\site\elements" />
       <recent name="D:\Projects\Extras\MODXSiteBuilder\MODXSiteBuilder\core\components\site\elements\plugins" />
-      <recent name="D:\Projects\Extras\MODXSiteBuilder\MODXSiteBuilder\core\components\site\elements\chunks" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -385,27 +378,29 @@
       <workItem from="1540959284827" duration="628000" />
       <workItem from="1543236430328" duration="796000" />
       <workItem from="1543293082488" duration="7148000" />
-      <workItem from="1543397351126" duration="3435000" />
+      <workItem from="1543397351126" duration="4463000" />
+      <workItem from="1543402279814" duration="1567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20834000" />
+    <option name="totallyTimeSpent" value="23429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5008091" side_tool="true" weight="0.2997763" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="8" weight="0.29306486" />
+      <window_info anchor="bottom" id="File Transfer" order="8" visible="true" weight="0.29306486" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49919093" weight="0.32885906" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49919093" weight="0.2997763" />
-      <window_info anchor="right" id="Remote Host" visible="true" weight="0.15048544" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27993527" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49919093" weight="0.34451902" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.15048544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28478965" />
       <window_info anchor="bottom" id="Get Gist" order="11" weight="0.32922733" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32928804" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -528,7 +523,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/templates/template.maintemplate.html">
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/templates/template.basetemplate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="9" />
@@ -580,22 +575,8 @@
     <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.rename_htaccess.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.resources.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="982">
-          <caret line="120" column="37" lean-forward="true" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.sample.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1432">
-          <caret line="390" column="27" selection-start-line="390" selection-start-column="27" selection-end-line="390" selection-end-column="27" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.template.php">
       <provider selected="true" editor-type-id="text-editor" />
@@ -607,10 +588,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.snippets.php">
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.chunks.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="619">
+          <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -621,31 +602,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.chunks.php">
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.snippets.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+        <state relative-caret-position="221">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="374" column="58" lean-forward="true" selection-start-line="374" selection-start-column="58" selection-end-line="374" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/core/components/goodextra/elements/templates/template.maintemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/data/transport.templates.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/build.transport.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
+        <state relative-caret-position="306">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/build.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="43" column="73" lean-forward="true" selection-start-line="43" selection-start-column="73" selection-end-line="43" selection-end-column="73" />
+        <state relative-caret-position="102">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/build.transport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODXSiteBuilder/_build/resolvers/resolve.resources.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
         </state>
       </provider>
     </entry>

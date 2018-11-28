@@ -335,12 +335,12 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
 
         /*
         * Plugin Ace settings
-        * 1. Размер шрифта в редакторе: 16px
+        * 1. Размер шрифта в редакторе: 13px
         * 2. Размер табуляции в редакторе: 4
         * 3. Тема редактора: clouds_midnight
         */
 
-        // Размер шрифта в редакторе: 16px
+        // Размер шрифта в редакторе: 13px
         if (in_array('Ace', $options['install_addons'])) {
             if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'ace.font_size'))) {
                 $tmp = $modx->newObject('modSystemSetting');
@@ -349,7 +349,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
                 'namespace' => 'ace',
                 'area'      => 'general',
                 'xtype'     => 'textfield',
-                'value'     => '16px',
+                'value'     => '13px',
                 'key'       => 'ace.font_size',
             ), '', true, true);
             $tmp->save();
@@ -371,7 +371,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         }
 
         // Тема редактора: clouds_midnight
-        if (in_array('Ace', $options['install_addons'])) {
+        /*if (in_array('Ace', $options['install_addons'])) {
             if (!$tmp = $modx->getObject('modSystemSetting', array('key' => 'ace.theme'))) {
                 $tmp = $modx->newObject('modSystemSetting');
             }
@@ -383,7 +383,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
                 'key'       => 'ace.theme',
             ), '', true, true);
             $tmp->save();
-        }
+        }*/
 
         /*
         * Plugin TinyMCE Rich Text Editor settings

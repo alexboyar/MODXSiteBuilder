@@ -68,7 +68,7 @@ $addons = array(
 );
 
 /* Указываем имя стартера и версию */
-$builder = new siteBuilder('goodextra', '1.0.5', 'beta', $resolvers, $addons);
+$builder = new siteBuilder('goodextra', '1.0.6', 'beta', $resolvers, $addons);
 
 /* Начинаем сборку */
 $builder->build();

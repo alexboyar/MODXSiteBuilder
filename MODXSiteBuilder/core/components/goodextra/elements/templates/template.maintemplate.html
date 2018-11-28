@@ -1,35 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  {block 'head'}
-    {include 'head'}
-  {/block}
-</head>
-<body>
-{block 'header'}
-  {include 'header'}
-{/block}
+{extends 'template:Базовый шаблон'}
 
 {block 'content'}
-{* По умолчанию в базовом шаблоне выводим контент ресурса с простым оформлением *}
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12">
-        <h1>{$_modx->resource.pagetitle}</h1>
-      </div>
-      <div class="col-12">
-        {$_modx->resource.content}
-      </div>
-    </div>
-  </div>
+    {include 'main_slider'}
 {/block}
-
-{include 'footer'}
-{include 'mob_menu'}
-{include 'popups'}
-
-{block 'scripts'}
-  {include 'scripts'}
-{/block}
-</body>
-</html>

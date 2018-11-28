@@ -26,6 +26,8 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
         $site_start = $modx->getObject('modResource', $modx->getOption('site_start'));
         if ($site_start) {
             $site_start->set('hidemenu', true);
+            $site_start->set('template', 2);
+            $site_start->setContent('');
             $site_start->save();
         }
             

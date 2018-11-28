@@ -5,11 +5,18 @@
 $templates = array();
 
 $tmp = array(
-	$this->config['PACKAGE_NAME'] => array(
-		'file' => 'maintemplate',
+	'basetemplate' => array(
+		'templatename' => 'Базовый шаблон',
+		'file' => 'basetemplate',
 		'description' => 'Базовый шаблон для наследования',
 		'category' => 'goodextra'
-	)
+	),
+	'maintemplate' => array(
+		'templatename' => 'Шаблон главной страницы',
+		'file' => 'maintemplate',
+		'description' => 'Шаблон главной страницы',
+		'category' => 'goodextra'
+	),
 );
 $setted = false;
 foreach ($tmp as $k => $v) {
@@ -17,7 +24,7 @@ foreach ($tmp as $k => $v) {
     /** @var modtemplate $template */
     $template = $this->modx->newObject('modTemplate');
     $template->fromArray(array(
-        'templatename' => $k,
+        'templatename' => @$v['templatename'],
         'category' => 0,
         'description' => @$v['description'],
         'content' => file_get_contents($this->config['PACKAGE_ROOT'] . 'core/components/'.strtolower($this->config['PACKAGE_NAME']).'/elements/templates/template.' . $v['file'] . '.html'),
